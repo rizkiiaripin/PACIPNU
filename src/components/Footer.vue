@@ -35,22 +35,15 @@
             <p>
               <a
                 class="inline-flex gap-x-2 text-gray-400 hover:text-gray-200 focus:outline-none focus:text-gray-200"
-                href="#"
+                href="/"
                 >&gt; Home</a
               >
             </p>
             <p>
               <a
                 class="inline-flex gap-x-2 text-gray-400 hover:text-gray-200 focus:outline-none focus:text-gray-200"
-                href="/persyaratan"
-                >&gt; Persyaratan</a
-              >
-            </p>
-            <p>
-              <a
-                class="inline-flex gap-x-2 text-gray-400 hover:text-gray-200 focus:outline-none focus:text-gray-200"
-                href="/galeri"
-                >&gt; Galeri</a
+                href="/tentang"
+                >&gt; Tentang</a
               >
             </p>
             <p>
@@ -63,8 +56,16 @@
             <p>
               <a
                 class="inline-flex gap-x-2 text-gray-400 hover:text-gray-200 focus:outline-none focus:text-gray-200"
-                href="/tentang"
-                >&gt; Tentang</a
+                href="/struktur-organisasi"
+                >&gt; Struktur Organisasi</a
+                
+              >
+            </p>
+            <p>
+              <a
+                class="inline-flex gap-x-2 text-gray-400 hover:text-gray-200 focus:outline-none focus:text-gray-200"
+                href="/mars"
+                >&gt; Mars</a
               >
             </p>
           </div>

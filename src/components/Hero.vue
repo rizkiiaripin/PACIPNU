@@ -14,11 +14,11 @@
         Ber-IPNU Tumbuhkan Semangat Belajar , Berjuang , & Bertaqwa
       </h1>
       <a href="/tentang"
-        class="flex justify-center gap-2 items-center mx-auto shadow-xl text-lg bg-gray-50 backdrop-blur-md lg:font-semibold isolation-auto border-gray-50 hover:text-slate-100 hover:bg-green-800 relative z-10 px-4 py-2 overflow-hidden border-2 rounded-full hover:scale-102 hover:border-slate-200 transition-all ease-linear duration-300 group"
+        class="flex justify-center gap-2 items-center mx-auto shadow-xl text-lg bg-gray-50 backdrop-blur-md lg:font-semibold isolation-auto border-gray-50 hover:text-slate-100 hover:bg-green-800 active:bg-green-800 relative  px-4 py-2 overflow-hidden border-2 rounded-full hover:scale-102 hover:border-slate-200 transition-all ease-linear duration-300 group"
       >
         Pelajari lebih lanjut
         <svg
-          class="w-8 h-8 justify-end group-hover:rotate-90 group-hover:bg-gray-50 text-white ease-linear duration-300 rounded-full border border-gray-700 group-hover:border-none p-2 rotate-45"
+          class="w-8 h-8 justify-end group-hover:rotate-90 group-active:rotate-90 group-hover:bg-gray-50 text-white ease-linear duration-300 rounded-full border border-gray-700 group-hover:border-none group-active:border-none p-2 rotate-45"
           viewBox="0 0 16 19"
           xmlns="http://www.w3.org/2000/svg"
         >

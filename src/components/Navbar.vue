@@ -27,7 +27,14 @@ onUnmounted(() => {
           : 'fixed top-0',
       ]"
     >
-      <div class="font-bold text-xl">PortFolio</div>
+    <div class="flex items-center justify-start gap-2 scale-75">
+        <img src="/images/logos/IPNU.webp" alt="" class="w-7 h-7" />
+        <img src="/images/logos/IPPNU.webp" alt="" class="w-7 h-7" />
+        <div class="text-sm text-slate-200">
+          <h1 class="font-bold">Pimpinan Anak Cabang</h1>
+          <p>IPNU IPPNU Bungursari</p>
+        </div>
+      </div>
       <!-- Hamburger Menu for Mobile -->
       <button
         @click="isMobileMenuOpen = !isMobileMenuOpen"
