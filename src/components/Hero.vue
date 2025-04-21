@@ -14,7 +14,7 @@
         Ber-IPNU Tumbuhkan Semangat Belajar , Berjuang , & Bertaqwa
       </h1>
       <a href="/tentang"
-        class="flex justify-center gap-2 items-center mx-auto shadow-xl text-lg bg-gray-50 backdrop-blur-md lg:font-semibold isolation-auto border-gray-50 hover:text-slate-100 active:text-slate-100 hover:bg-green-800 active:bg-green-800 relative  px-4 py-2 overflow-hidden border-2 rounded-full hover:scale-102 active:scale-102  hover:border-slate-200 transition-all ease-linear duration-300 group"
+        class="flex justify-center gap-2 items-center mx-auto shadow-xl text-lg bg-gray-50 backdrop-blur-md lg:font-semibold isolation-auto border-gray-50 hover:text-slate-100 active:text-slate-100 hover:bg-green-800 active:bg-green-800 relative  px-4 py-2 overflow-hidden border-2 rounded-full hover:scale-102 active:scale-102  hover:border-slate-200 transition-all ease-linear duration-300 font-semibold group"
       >
         Pelajari lebih lanjut
         <svg
