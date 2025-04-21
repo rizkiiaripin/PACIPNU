@@ -24,7 +24,7 @@ import { RouterView, RouterLink } from "vue-router";
             class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 flex flex-col items-center gap-2"
           >
             <h1
-              class="text-white text-4xl font-semibold z-10 text-center"
+              class="text-white mt-5 text-4xl font-semibold z-10 text-center"
               data-aos="fade-right"
             >
               Tentang
