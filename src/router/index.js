@@ -17,7 +17,7 @@ const routes = [
     component: () => import("../views/Mars.vue"),
   },
   
-  { path: "/:pathMatch(.*)*", name: "NotFound", component: () => import("../views/Notfound.vue"), },
+  { path: "/:pathMatch(.*)*", name: "NotFound", component: () => import("../views/NotFound.vue"), },
 ];
 
 const router = createRouter({
