@@ -10,7 +10,7 @@
     <div
       class="absolute flex flex-col items-center justify-center w-full h-full gap-10"
     >
-      <h1 class="text-4xl  md:text-6xl font-bold text-center text-slate-100">
+      <h1 class="text-4xl mx-3  md:text-6xl font-bold text-center text-slate-100">
         Ber-IPNU Tumbuhkan Semangat Belajar , Berjuang , & Bertaqwa
       </h1>
       <a href="/tentang"
