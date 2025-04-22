@@ -1,5 +1,5 @@
 <template>
-  <div class="h-screen overflow-hidden mb-4 grid items-center mx-auto">
+  <section class="h-screen overflow-hidden mb-4 grid items-center mx-auto">
     <div class="flex justify-center h-full w-full bg-gray-100 relative">
       <img
         src="/images/heroes/hero.jpg"
@@ -14,7 +14,7 @@
         Ber-IPNU Tumbuhkan Semangat Belajar , Berjuang , & Bertaqwa
       </h1>
       <a href="/tentang"
-        class="flex justify-center gap-2 items-center mx-auto shadow-xl text-lg bg-gray-50 backdrop-blur-md lg:font-semibold isolation-auto border-gray-50 hover:text-slate-100 active:text-slate-100 hover:bg-green-800 active:bg-green-800 relative  px-4 py-2 overflow-hidden border-2 rounded-full hover:scale-102 active:scale-102  hover:border-slate-200 transition-all ease-linear duration-300 font-semibold group"
+        class="flex justify-center gap-2 items-center mx-auto shadow-xl text-lg bg-gray-50 backdrop-blur-md lg:font-semibold isolation-auto border-gray-50 hover:text-slate-100 active:text-slate-100 hover:bg-green-800 active:bg-green-800 relative  px-4 py-2 overflow-hidden border-2 rounded-full hover:scale-102 active:scale-102  hover:border-slate-200 transition-all ease-linear duration-300 font-semibold text-slate-800 group"
       >
         Pelajari lebih lanjut
         <svg
@@ -29,5 +29,5 @@
         </svg>
       </a>
     </div>
-  </div>
+  </section>
 </template>

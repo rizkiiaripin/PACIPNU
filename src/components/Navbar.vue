@@ -52,9 +52,10 @@ onUnmounted(() => {
       >
         <li><a href="/">Beranda</a></li>
         <li><a href="/tentang">Tentang</a></li>
-        <li><a href="/contact">Kontak</a></li>
-        <li><a href="/contact">Struktur Organisasi</a></li>
+        <li><a href="/blog">Blog</a></li>
+        <li><a href="/struktur-organisasi">Struktur Organisasi</a></li>
         <li><a href="/mars">Mars</a></li>
+        <li><a href="/kontak">Kontak</a></li>
       </ul>
     </div>
   </header>
@@ -81,11 +82,12 @@ onUnmounted(() => {
         <ul
           class="flex flex-col md:flex-row space-x-4 justify-center items-center text-sm font-semibold"
         >
-          <li><a href="/">Beranda</a></li>
-          <li><a href="/tentang">Tentang</a></li>
-          <li><a href="/contact">Kontak</a></li>
-          <li><a href="/contact">Struktur Organisasi</a></li>
-          <li><a href="/mars">Mars</a></li>
+        <li><a href="/">Beranda</a></li>
+        <li><a href="/tentang">Tentang</a></li>
+        <li><a href="/blog">Blog</a></li>
+        <li><a href="/struktur-organisasi">Struktur Organisasi</a></li>
+        <li><a href="/mars">Mars</a></li>
+        <li><a href="/kontak">Kontak</a></li>
         </ul>
       </div>
       <div class="flex gap-2 justify-end items-center text-slate-100">

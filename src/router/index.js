@@ -16,6 +16,22 @@ const routes = [
     name: "mars",
     component: () => import("../views/Mars.vue"),
   },
+  {
+    path: "/blog",
+    name: "blog",
+    component: () => import("../views/Blog.vue"),
+  },
+  
+  {
+    path: "/kontak",
+    name: "kontak",
+    component: () => import("../views/Contact.vue"),
+  },
+  {
+    path: "/struktur-organisasi",
+    name: "struktur-organisasi",
+    component: () => import("../views/StructurOrganization.vue"),
+  },
   
   { path: "/:pathMatch(.*)*", name: "NotFound", component: () => import("../views/NotFound.vue"), },
 ];
