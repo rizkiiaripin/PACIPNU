@@ -13,7 +13,7 @@ import { RouterView, RouterLink } from "vue-router";
   <Hero />
   <About />
   <Blog>
-    <div class="flex flex-col items-center justify-center my-5">
+    <div class="flex flex-col items-center justify-center my-5 mb-20">
       <a href="/blog" class="bg-green-700 text-white px-4 py-2 rounded-full flex items-center gap-2 group hover:bg-green-800 active:bg-green-900 transition duration-300 ease-in-out">
         lihat lebih banyak
         <svg

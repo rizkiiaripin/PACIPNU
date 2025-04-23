@@ -18,7 +18,7 @@
         class="h-100 overflow-hidden rounded-sm bg-blue-gray-500 bg-clip-border text-white"
       >
         <img
-          src="/images/struktur-organisasi/myphoto.jpeg"
+          src="/images/struktur-organisasi/ketua.webp"
           alt="makestar"
           class="w-full h-full object-cover transition-transform duration-300 ease-in-out"
         />
@@ -30,7 +30,7 @@
           <h5
             class="font-semibold text-slate-800 text-lg"
           >
-            Muhamad Rizki Aripin
+           Aab Abdul manan
           </h5>
           <p class="text-md font-semibold text-slate-500 mb-1">Ketua IPNU</p>
           <p class="text-xs text-slate-400 ">Masa Khidmat : 2024 - 2025</p>
@@ -44,7 +44,7 @@
         class="h-100 overflow-hidden rounded-sm bg-blue-gray-500 bg-clip-border text-white"
       >
         <img
-          src="/images/struktur-organisasi/myphoto.jpeg"
+          src="/images/struktur-organisasi/ketua2.webp"
           alt="makestar"
           class="w-full h-full object-cover transition-transform duration-300 ease-in-out"
         />
@@ -56,38 +56,12 @@
           <h5
             class="font-semibold text-slate-800 text-lg"
           >
-            Muhamad Rizki Aripin
+          Asril muhammad
           </h5>
           <p class="text-md font-semibold text-slate-500 mb-1">Ketua IPNU</p>
           <p class="text-xs text-slate-400 ">Masa Khidmat : 2024 - 2025</p>
        
       </div>
     </div>
-    <div
-      class="flex relative w-full flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md"
-    >
-      <div
-        class="h-100 overflow-hidden rounded-sm bg-blue-gray-500 bg-clip-border text-white"
-      >
-        <img
-          src="/images/struktur-organisasi/myphoto.jpeg"
-          alt="makestar"
-          class="w-full h-full object-cover transition-transform duration-300 ease-in-out"
-        />
-      </div>
-
-      <div
-        class="absolute -bottom-1 p-3 flex flex-col justify-center items-center bg-white w-80 shadow-md "
-      >
-          <h5
-            class="font-semibold text-slate-800 text-lg"
-          >
-          Aab Abdul Manan
-          </h5>
-          <p class="text-md font-semibold text-slate-500 mb-1">Ketua IPNU</p>
-          <p class="text-xs text-slate-400 ">Masa Khidmat : 2024 - 2025</p>
-       
-      </div>
-    </div>
-  </section>
+    </section>
 </template>
