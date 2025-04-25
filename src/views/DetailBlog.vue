@@ -13,6 +13,7 @@ import Breadcrumb from "../components/Breadcrumb.vue";
   <div
     class="w-2/3 mx-auto px-4 py-8 flex flex-col items-center justify-center"
   >
+    
     <div class=" h-100 mb-4 overflow-hidden flex justify-center items-center"> 
       <img src="/images/heroes/hero.jpg" alt="gambar-detail" class="object-cover object-center " />
     </div>
