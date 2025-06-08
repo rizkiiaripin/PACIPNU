@@ -181,7 +181,7 @@
               <div class="flex">
                 <button
                   type="submit"
-                  class="bg-green-800 text-white py-2 px-6 rounded-md hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 transition-transform duration-300 transform hover:scale-105"
+                  class="bg-green-800 text-white py-2 px-6 rounded-md hover:bg-green-900 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 transition-transform duration-300 transform hover:scale-105"
                 >
                   Kirim
                 </button>

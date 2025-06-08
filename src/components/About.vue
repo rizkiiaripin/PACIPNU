@@ -1,5 +1,5 @@
 <template>
-  <section class="container mx-auto my-6 mt-10 flex flex-col items-center">
+  <section class="container mx-auto my-6 mt-10 flex flex-col items-center"  data-aos="fade-up">
     <div class="w-full max-w-6xl bg-white rounded-lg p-6">
       <div class="text-center mb-5">
         <h1 class="text-3xl text-center font-bold text-slate-800 mb-2">
