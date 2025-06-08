@@ -2,6 +2,17 @@
 import Navbar from "../components/Navbar.vue";
 import Footer from "../components/Footer.vue";
 import Breadcrumb from "../components/Breadcrumb.vue";
+import { blogs } from "../database/blogs.js";
+import { useRoute } from 'vue-router'
+
+const route = useRoute()
+const blogId = parseInt(route.params.id)
+
+if (isNaN(blogId)) {
+  throw new Error("Invalid blog ID");
+}
+
+const blog = blogs.find(b => b.id === blogId)
 </script>
 <template>
   <Navbar />
@@ -15,11 +26,11 @@ import Breadcrumb from "../components/Breadcrumb.vue";
   >
     
     <div class=" h-100 mb-4 overflow-hidden flex justify-center items-center"> 
-      <img src="/images/heroes/hero.jpg" alt="gambar-detail" class="object-cover object-center " />
+      <img :src="blog.image" alt="gambar-detail" class="object-cover object-center " />
     </div>
-    <h1 class="text-3xl font-bold mb-4 self-start">Detail Blog</h1>
+    <h1 class="text-3xl font-bold mb-4 self-start">{{ blog?.title }}</h1>
     <p class="text-gray-700 mb-4">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        {{ blog?.description }}
     </p>
   </div>
   <Footer />
