@@ -1,5 +1,5 @@
 <template>
-  <section id="kontak">
+  <section id="kontak" data-aos="fade-up">
     <div class="text-center my-6 mt-10">
       <h1 class="text-3xl text-center font-bold text-slate-700 mb-2">
         Hubungi Kami

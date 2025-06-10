@@ -1,6 +1,12 @@
-<script setup >
-const props = defineProps(['title','image' , 'currentLink'])
-
+<script setup>
+import { onMounted } from "vue";
+const props = defineProps(["title", "image", "currentLink"]);
+onMounted(() => {
+  AOS.init({
+    once: true, // opsional: hanya animasi sekali
+  });
+  AOS.refresh();
+});
 </script>
 <template>
   <div>
@@ -19,15 +25,17 @@ const props = defineProps(['title','image' , 'currentLink'])
             class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 flex flex-col items-center gap-2"
           >
             <h1
-              class="text-white text-4xl mt-5 font-semibold z-10 text-center whitespace-nowrap" 
-              data-aos="fade-right"
+              class="text-white text-4xl mt-5 font-semibold z-10 text-center whitespace-nowrap"
+              data-aos="fade-right" data-aos-duration="1000"
             >
               {{ props.title }}
             </h1>
-            <div class="flex gap-2 items-center justify-center z-10">
+            <div class="flex gap-2 items-center justify-center z-10" data-aos="fade-right" data-aos-duration="800">
               <a href="/" class="text-blue-400">Beranda</a>
               <span class="text-white text-lg">></span>
-              <a class="text-white whitespace-nowrap">{{ props.currentLink }}</a>
+              <a class="text-white whitespace-nowrap">{{
+                props.currentLink
+              }}</a>
             </div>
           </div>
         </div>

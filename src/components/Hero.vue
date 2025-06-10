@@ -1,5 +1,14 @@
+<script>
+import { onMounted } from "vue";
+onMounted(() => {
+  AOS.init({
+    once: true, // opsional: hanya animasi sekali
+  });
+  AOS.refresh();
+});
+</script>
 <template>
-  <section class="h-screen overflow-hidden mb-4 grid items-center mx-auto">
+  <section class="h-screen overflow-hidden mb-4 grid items-center mx-auto" >
     <div class="flex justify-center h-full w-full bg-gray-100 relative">
       <img
         src="/images/heroes/hero.jpg"
@@ -8,12 +17,13 @@
       />
     </div>
     <div
-      class="absolute flex flex-col items-center justify-center w-full h-full gap-10"  
+      class="absolute flex flex-col items-center justify-center w-full h-full gap-10" 
+      
     >
-      <h1 class="text-4xl mx-3  md:text-6xl font-bold text-center text-slate-100"  >
+      <h1 class="text-4xl mx-3  md:text-6xl font-bold text-center text-slate-100" data-aos="fade-down" data-aos-duration="900"  >
         Ber-IPNU Tumbuhkan Semangat Belajar , Berjuang , & Bertaqwa
       </h1>
-      <a href="/tentang"
+      <a href="/tentang" data-aos="fade-up" data-aos-duration="1300" 
         class="flex justify-center gap-2 items-center mx-auto shadow-xl text-lg bg-gray-50 backdrop-blur-md lg:font-semibold isolation-auto border-gray-50 hover:text-slate-100 active:text-slate-100 hover:bg-green-800 active:bg-green-800 relative  px-4 py-2 overflow-hidden border-2 rounded-full hover:scale-102 active:scale-102  hover:border-slate-200 transition-all ease-linear duration-300 font-semibold text-slate-800 group"
       >
         Pelajari lebih lanjut
